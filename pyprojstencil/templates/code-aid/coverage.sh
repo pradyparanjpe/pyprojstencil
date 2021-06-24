@@ -26,7 +26,7 @@ set_vars () {
     cwd="${PWD}"
     realenv=
     ct_flags=""
-    project_root="$(dirname "$(dirname "$(realpath "${0}")")")"
+    project_root="$(dirname "$(dirname "$(readlink -f "${0}")")")"
     project_name="$(basename "${project_root}")"
     help_msg="
 

@@ -27,7 +27,7 @@ set_vars () {
     realenv=
     assume_yes=""
     in_flags=""
-    project_root="$(dirname "$(dirname "$(realpath "${0}")")")"
+    project_root="$(dirname "$(dirname "$(readlink -f "${0}")")")"
     project_name="$(basename "${project_root}")"
     help_msg="
 

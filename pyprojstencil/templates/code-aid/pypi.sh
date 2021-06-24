@@ -28,7 +28,7 @@ set_vars () {
     realenv=
     up_flags=
     release="testpypi"
-    project_dir="$(dirname "$(dirname "$(realpath "${0}")")")"
+    project_dir="$(dirname "$(dirname "$(readlink -f "${0}")")")"
     project_name="$(basename "${project_dir}")"
     help_msg="
 
