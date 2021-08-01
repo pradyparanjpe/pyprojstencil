@@ -18,9 +18,9 @@
 # along with pyprojstencil.  If not, see <https://www.gnu.org/licenses/>.
 #
 """
-Initialize git repository with ``pegan`` branch
+Initialize git repository with ``pagan`` branch
 
-``master`` this can be derived later from pegan by
+``master`` this can be derived later from pagan by
 trimming all unnecessary history
 """
 

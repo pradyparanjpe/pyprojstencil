@@ -25,4 +25,4 @@ from .read_templates import INFO_BASE
 
 __all__ = ['INFO_BASE']
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"

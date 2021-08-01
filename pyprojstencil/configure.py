@@ -75,7 +75,7 @@ class PyConfig():
         uname: author's user name
         email: author's email
         githost: host [remote] website for git
-        branch: git's initial branch [default: `pegan`]
+        branch: git's initial branch [default: `pagan`]
         url: project's url
         keys: all class key names
     """
@@ -94,7 +94,7 @@ class PyConfig():
         self.url: Optional[str] = None
         self._uname: Optional[str] = None
         self.githost: str = "github"
-        self.branch: str = "pegan"
+        self.branch: str = "pagan"
         self.keys = ('license_header', 'description', 'pyversion', 'project',
                      'version', 'githost', 'license', 'author', 'email', 'url',
                      'uname', 'years')

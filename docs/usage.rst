@@ -78,8 +78,8 @@ Code
 Version control
 -----------------
 
-- The default git branch is `pegan`
-- A `develop` branch may be created by trimming history from `pegan` after the project draft is ready.
+- The default git branch is `pagan`
+- A `develop` branch may be created by trimming history from `pagan` after the project draft is ready.
 
   - Frequently saving, staging-committing files in the VCS is a good habit.
 
